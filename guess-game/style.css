@@ -1,0 +1,56 @@
+/* убираем отступы */
+body {
+    margin: 0;
+    /* чтобы всё было по центру */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* красивый фон */
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    /* обычный шрифт */
+    font-family: Arial;
+}
+
+/* карточка игры */
+.card {
+    background: white;
+    padding: 30px;
+    /* закругление */
+    border-radius: 20px;
+    text-align: center;
+    width: 300px;
+    /* тень */
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* поле ввода */
+input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+/* кнопка */
+button {
+    padding: 10px 20px;
+    border: none;
+    background: #4facfe;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* эффект при наведении */
+button:hover {
+    background: #1f8fff;
+}
+
+/* текст результата */
+#result {
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 18px;
+}

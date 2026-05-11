@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- название вкладки -->
+    <title>Uzmini skaitli</title>
+
+    <!-- подключаем стили -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- основная карточка -->
+    <div class="card">
+
+        <!-- заголовок -->
+        <h1>🎯 Uzmini skaitli (1–10)</h1>
+
+        <!-- поле ввода числа -->
+        <input 
+            id="guess" 
+            type="number" 
+            min="1" 
+            max="10" 
+            placeholder="ievadi skaitli"
+        >
+
+        <!-- кнопка проверки -->
+        <button onclick="checkGuess()">
+            Pārbaudīt
+        </button>
+
+        <!-- сюда будет выводиться результат -->
+        <p id="result"></p>
+
+    </div>
+
+    <!-- подключаем js -->
+    <script src="script.js"></script>
+
+</body>
+</html>

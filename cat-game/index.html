@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="lv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Подключение CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Kaķa Klikšķeris</title>
+  </head>
+  <body>
+    <!-- Уведомление -->
+    <div id="notification">Achievement iegūts!</div>
+
+    <!-- Главный контейнер -->
+    <div class="container">
+      <!-- Название -->
+      <h1>🐱 Kaķa Klikšķeris</h1>
+
+      <!-- Статистика -->
+      <div class="stats">
+        <div class="box">
+          <h2>Zivis</h2>
+          <p id="coins">0</p>
+        </div>
+
+        <div class="box">
+          <h2>Klikšķi</h2>
+          <p id="clicks">0</p>
+        </div>
+      </div>
+
+      <!-- Картинка кота -->
+      <img
+        src="https://cdn-icons-png.flaticon.com/512/616/616430.png"
+        alt="cat"
+        id="cat"
+      />
+
+      <!-- Кнопка -->
+      <button id="clickBtn">Pabarot kaķi 🍣</button>
+
+      <!-- Магазин -->
+      <div class="shop">
+        <h2>🛒 Veikals</h2>
+
+        <button id="upgradeFish">Labāka zivs (+1) — 25 🐟</button>
+
+        <button id="upgradeAuto">Auto barotājs — 100 🐟</button>
+      </div>
+
+      <!-- Задания -->
+      <div class="tasks">
+        <h2>📋 Uzdevumi</h2>
+
+        <div class="task" id="task1">Uzspied 50 reizes — balva 25 🐟</div>
+
+        <div class="task" id="task2">Savāc 200 🐟 — balva 50 🐟</div>
+      </div>
+
+      <!-- Ачивки -->
+      <div class="achievements">
+        <h2>🏆 Sasniegumi</h2>
+
+        <div class="achievement" id="ach1">❌ Pirmais klikšķis</div>
+
+        <div class="achievement" id="ach2">❌ 25 klikšķi</div>
+
+        <div class="achievement" id="ach3">❌ 100 klikšķi</div>
+
+        <div class="achievement" id="ach4">❌ Savāc 500 zivis</div>
+
+        <div class="achievement" id="ach5">❌ Nopērc upgrade</div>
+
+        <div class="achievement" id="ach6">❌ Kaķu meistars</div>
+      </div>
+    </div>
+
+    <!-- Подключение JS -->
+    <script src="script.js"></script>
+  </body>
+</html>
